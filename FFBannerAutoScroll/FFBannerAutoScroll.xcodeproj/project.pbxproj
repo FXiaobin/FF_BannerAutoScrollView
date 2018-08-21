@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041BE31920E0C30C00B1EB54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE31820E0C30C00B1EB54 /* AppDelegate.m */; };
+		041BE31C20E0C30C00B1EB54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE31B20E0C30C00B1EB54 /* ViewController.m */; };
+		041BE31F20E0C30C00B1EB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BE31D20E0C30C00B1EB54 /* Main.storyboard */; };
+		041BE32120E0C30C00B1EB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041BE32020E0C30C00B1EB54 /* Assets.xcassets */; };
+		041BE32420E0C30C00B1EB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BE32220E0C30C00B1EB54 /* LaunchScreen.storyboard */; };
+		041BE32720E0C30C00B1EB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE32620E0C30C00B1EB54 /* main.m */; };
+		041BE35720E0ED9B00B1EB54 /* BannerAutoScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE35220E0ED9B00B1EB54 /* BannerAutoScroll.m */; };
+		041BE35820E0ED9B00B1EB54 /* BannerAutoImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041BE35420E0ED9B00B1EB54 /* BannerAutoImageViewCell.xib */; };
+		041BE35920E0ED9B00B1EB54 /* BannerAutoImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE35520E0ED9B00B1EB54 /* BannerAutoImageViewCell.m */; };
+		041BE35D20E0EE5700B1EB54 /* BannerScrollAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 041BE35C20E0EE5700B1EB54 /* BannerScrollAnimation.m */; };
+		0434E1B7212BAF8500EFC9EB /* AutoScrollBanner01.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434E1B3212BAF8500EFC9EB /* AutoScrollBanner01.m */; };
+		0434E1B8212BAF8500EFC9EB /* AutoScrollBanner02.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434E1B4212BAF8500EFC9EB /* AutoScrollBanner02.m */; };
+		0458D38520E1CD41003E9B9F /* YSLoopBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458D38420E1CD41003E9B9F /* YSLoopBanner.m */; };
+		79A53E2FC4C3822BB891485A /* libPods-FFBannerAutoScrollUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 761EFB5469836AC0FAB331A0 /* libPods-FFBannerAutoScrollUITests.a */; };
+		E6781FA88E3E5D4B4F20A3C0 /* libPods-FFBannerAutoScrollTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D95F93F8ADB52A62196BF6 /* libPods-FFBannerAutoScrollTests.a */; };
+		F991B2BF4BCE3EE1C23BB096 /* libPods-FFBannerAutoScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6467525BA2FE8705FFD65BA7 /* libPods-FFBannerAutoScroll.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041BE32D20E0C30C00B1EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041BE30C20E0C30C00B1EB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041BE31320E0C30C00B1EB54;
+			remoteInfo = FFBannerAutoScroll;
+		};
+		041BE33820E0C30C00B1EB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041BE30C20E0C30C00B1EB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041BE31320E0C30C00B1EB54;
+			remoteInfo = FFBannerAutoScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041BE31420E0C30C00B1EB54 /* FFBannerAutoScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFBannerAutoScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BE31720E0C30C00B1EB54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041BE31820E0C30C00B1EB54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041BE31A20E0C30C00B1EB54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041BE31B20E0C30C00B1EB54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041BE31E20E0C30C00B1EB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041BE32020E0C30C00B1EB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041BE32320E0C30C00B1EB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041BE32520E0C30C00B1EB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041BE32620E0C30C00B1EB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041BE32C20E0C30C00B1EB54 /* FFBannerAutoScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFBannerAutoScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BE33720E0C30C00B1EB54 /* FFBannerAutoScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFBannerAutoScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BE35220E0ED9B00B1EB54 /* BannerAutoScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAutoScroll.m; sourceTree = "<group>"; };
+		041BE35320E0ED9B00B1EB54 /* BannerAutoImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAutoImageViewCell.h; sourceTree = "<group>"; };
+		041BE35420E0ED9B00B1EB54 /* BannerAutoImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerAutoImageViewCell.xib; sourceTree = "<group>"; };
+		041BE35520E0ED9B00B1EB54 /* BannerAutoImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAutoImageViewCell.m; sourceTree = "<group>"; };
+		041BE35620E0ED9B00B1EB54 /* BannerAutoScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAutoScroll.h; sourceTree = "<group>"; };
+		041BE35B20E0EE5700B1EB54 /* BannerScrollAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerScrollAnimation.h; sourceTree = "<group>"; };
+		041BE35C20E0EE5700B1EB54 /* BannerScrollAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerScrollAnimation.m; sourceTree = "<group>"; };
+		0434E1B3212BAF8500EFC9EB /* AutoScrollBanner01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollBanner01.m; sourceTree = "<group>"; };
+		0434E1B4212BAF8500EFC9EB /* AutoScrollBanner02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollBanner02.m; sourceTree = "<group>"; };
+		0434E1B5212BAF8500EFC9EB /* AutoScrollBanner01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollBanner01.h; sourceTree = "<group>"; };
+		0434E1B6212BAF8500EFC9EB /* AutoScrollBanner02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollBanner02.h; sourceTree = "<group>"; };
+		0458D38320E1CD41003E9B9F /* YSLoopBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLoopBanner.h; sourceTree = "<group>"; };
+		0458D38420E1CD41003E9B9F /* YSLoopBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLoopBanner.m; sourceTree = "<group>"; };
+		31B665081C68755DCA6077C0 /* Pods-FFBannerAutoScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScroll/Pods-FFBannerAutoScroll.release.xcconfig"; sourceTree = "<group>"; };
+		59D95F93F8ADB52A62196BF6 /* libPods-FFBannerAutoScrollTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFBannerAutoScrollTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6467525BA2FE8705FFD65BA7 /* libPods-FFBannerAutoScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFBannerAutoScroll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761EFB5469836AC0FAB331A0 /* libPods-FFBannerAutoScrollUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFBannerAutoScrollUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6B9EC5B34AD91627F20B0F /* Pods-FFBannerAutoScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScroll/Pods-FFBannerAutoScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		B62AB34A952C879C65862F33 /* Pods-FFBannerAutoScrollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScrollUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScrollUITests/Pods-FFBannerAutoScrollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBD24C888D420B6ECCE18FED /* Pods-FFBannerAutoScrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScrollTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScrollTests/Pods-FFBannerAutoScrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E5523E200D3EFD263A3E84 /* Pods-FFBannerAutoScrollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScrollUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScrollUITests/Pods-FFBannerAutoScrollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F81CBEA73C02A431FB4DE58E /* Pods-FFBannerAutoScrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFBannerAutoScrollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFBannerAutoScrollTests/Pods-FFBannerAutoScrollTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041BE31120E0C30C00B1EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F991B2BF4BCE3EE1C23BB096 /* libPods-FFBannerAutoScroll.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE32920E0C30C00B1EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6781FA88E3E5D4B4F20A3C0 /* libPods-FFBannerAutoScrollTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE33420E0C30C00B1EB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A53E2FC4C3822BB891485A /* libPods-FFBannerAutoScrollUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041BE30B20E0C30C00B1EB54 = {
+			isa = PBXGroup;
+			children = (
+				041BE31620E0C30C00B1EB54 /* FFBannerAutoScroll */,
+				041BE31520E0C30C00B1EB54 /* Products */,
+				1E26C27436ACD4338632F8D3 /* Pods */,
+				2CC998264BCFD45617B9F080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041BE31520E0C30C00B1EB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041BE31420E0C30C00B1EB54 /* FFBannerAutoScroll.app */,
+				041BE32C20E0C30C00B1EB54 /* FFBannerAutoScrollTests.xctest */,
+				041BE33720E0C30C00B1EB54 /* FFBannerAutoScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041BE31620E0C30C00B1EB54 /* FFBannerAutoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0434E1B2212BAF8500EFC9EB /* AutoScrollBanner */,
+				0458D38220E1CD41003E9B9F /* LoopBanner */,
+				041BE35A20E0EE2C00B1EB54 /* BannerScrollAnimation */,
+				041BE35120E0ED9B00B1EB54 /* BannerAutoScroll */,
+				041BE31720E0C30C00B1EB54 /* AppDelegate.h */,
+				041BE31820E0C30C00B1EB54 /* AppDelegate.m */,
+				041BE31A20E0C30C00B1EB54 /* ViewController.h */,
+				041BE31B20E0C30C00B1EB54 /* ViewController.m */,
+				041BE31D20E0C30C00B1EB54 /* Main.storyboard */,
+				041BE32020E0C30C00B1EB54 /* Assets.xcassets */,
+				041BE32220E0C30C00B1EB54 /* LaunchScreen.storyboard */,
+				041BE32520E0C30C00B1EB54 /* Info.plist */,
+				041BE32620E0C30C00B1EB54 /* main.m */,
+			);
+			path = FFBannerAutoScroll;
+			sourceTree = "<group>";
+		};
+		041BE35120E0ED9B00B1EB54 /* BannerAutoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				041BE35620E0ED9B00B1EB54 /* BannerAutoScroll.h */,
+				041BE35220E0ED9B00B1EB54 /* BannerAutoScroll.m */,
+				041BE35320E0ED9B00B1EB54 /* BannerAutoImageViewCell.h */,
+				041BE35520E0ED9B00B1EB54 /* BannerAutoImageViewCell.m */,
+				041BE35420E0ED9B00B1EB54 /* BannerAutoImageViewCell.xib */,
+			);
+			path = BannerAutoScroll;
+			sourceTree = "<group>";
+		};
+		041BE35A20E0EE2C00B1EB54 /* BannerScrollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				041BE35B20E0EE5700B1EB54 /* BannerScrollAnimation.h */,
+				041BE35C20E0EE5700B1EB54 /* BannerScrollAnimation.m */,
+			);
+			path = BannerScrollAnimation;
+			sourceTree = "<group>";
+		};
+		0434E1B2212BAF8500EFC9EB /* AutoScrollBanner */ = {
+			isa = PBXGroup;
+			children = (
+				0434E1B5212BAF8500EFC9EB /* AutoScrollBanner01.h */,
+				0434E1B3212BAF8500EFC9EB /* AutoScrollBanner01.m */,
+				0434E1B6212BAF8500EFC9EB /* AutoScrollBanner02.h */,
+				0434E1B4212BAF8500EFC9EB /* AutoScrollBanner02.m */,
+			);
+			path = AutoScrollBanner;
+			sourceTree = "<group>";
+		};
+		0458D38220E1CD41003E9B9F /* LoopBanner */ = {
+			isa = PBXGroup;
+			children = (
+				0458D38320E1CD41003E9B9F /* YSLoopBanner.h */,
+				0458D38420E1CD41003E9B9F /* YSLoopBanner.m */,
+			);
+			path = LoopBanner;
+			sourceTree = "<group>";
+		};
+		1E26C27436ACD4338632F8D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6B9EC5B34AD91627F20B0F /* Pods-FFBannerAutoScroll.debug.xcconfig */,
+				31B665081C68755DCA6077C0 /* Pods-FFBannerAutoScroll.release.xcconfig */,
+				BBD24C888D420B6ECCE18FED /* Pods-FFBannerAutoScrollTests.debug.xcconfig */,
+				F81CBEA73C02A431FB4DE58E /* Pods-FFBannerAutoScrollTests.release.xcconfig */,
+				B62AB34A952C879C65862F33 /* Pods-FFBannerAutoScrollUITests.debug.xcconfig */,
+				E5E5523E200D3EFD263A3E84 /* Pods-FFBannerAutoScrollUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CC998264BCFD45617B9F080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6467525BA2FE8705FFD65BA7 /* libPods-FFBannerAutoScroll.a */,
+				59D95F93F8ADB52A62196BF6 /* libPods-FFBannerAutoScrollTests.a */,
+				761EFB5469836AC0FAB331A0 /* libPods-FFBannerAutoScrollUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041BE31320E0C30C00B1EB54 /* FFBannerAutoScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BE34020E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScroll" */;
+			buildPhases = (
+				6CC771804DEED2B8F7D6FB17 /* [CP] Check Pods Manifest.lock */,
+				041BE31020E0C30C00B1EB54 /* Sources */,
+				041BE31120E0C30C00B1EB54 /* Frameworks */,
+				041BE31220E0C30C00B1EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFBannerAutoScroll;
+			productName = FFBannerAutoScroll;
+			productReference = 041BE31420E0C30C00B1EB54 /* FFBannerAutoScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041BE32B20E0C30C00B1EB54 /* FFBannerAutoScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BE34320E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScrollTests" */;
+			buildPhases = (
+				26CE9D978B15C4CD75781B14 /* [CP] Check Pods Manifest.lock */,
+				041BE32820E0C30C00B1EB54 /* Sources */,
+				041BE32920E0C30C00B1EB54 /* Frameworks */,
+				041BE32A20E0C30C00B1EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041BE32E20E0C30C00B1EB54 /* PBXTargetDependency */,
+			);
+			name = FFBannerAutoScrollTests;
+			productName = FFBannerAutoScrollTests;
+			productReference = 041BE32C20E0C30C00B1EB54 /* FFBannerAutoScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		041BE33620E0C30C00B1EB54 /* FFBannerAutoScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BE34620E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScrollUITests" */;
+			buildPhases = (
+				DCD7BDE45362E146237D8E57 /* [CP] Check Pods Manifest.lock */,
+				041BE33320E0C30C00B1EB54 /* Sources */,
+				041BE33420E0C30C00B1EB54 /* Frameworks */,
+				041BE33520E0C30C00B1EB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041BE33920E0C30C00B1EB54 /* PBXTargetDependency */,
+			);
+			name = FFBannerAutoScrollUITests;
+			productName = FFBannerAutoScrollUITests;
+			productReference = 041BE33720E0C30C00B1EB54 /* FFBannerAutoScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041BE30C20E0C30C00B1EB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					041BE31320E0C30C00B1EB54 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					041BE32B20E0C30C00B1EB54 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 041BE31320E0C30C00B1EB54;
+					};
+					041BE33620E0C30C00B1EB54 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 041BE31320E0C30C00B1EB54;
+					};
+				};
+			};
+			buildConfigurationList = 041BE30F20E0C30C00B1EB54 /* Build configuration list for PBXProject "FFBannerAutoScroll" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041BE30B20E0C30C00B1EB54;
+			productRefGroup = 041BE31520E0C30C00B1EB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041BE31320E0C30C00B1EB54 /* FFBannerAutoScroll */,
+				041BE32B20E0C30C00B1EB54 /* FFBannerAutoScrollTests */,
+				041BE33620E0C30C00B1EB54 /* FFBannerAutoScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041BE31220E0C30C00B1EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BE32420E0C30C00B1EB54 /* LaunchScreen.storyboard in Resources */,
+				041BE35820E0ED9B00B1EB54 /* BannerAutoImageViewCell.xib in Resources */,
+				041BE32120E0C30C00B1EB54 /* Assets.xcassets in Resources */,
+				041BE31F20E0C30C00B1EB54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE32A20E0C30C00B1EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE33520E0C30C00B1EB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26CE9D978B15C4CD75781B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFBannerAutoScrollTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC771804DEED2B8F7D6FB17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFBannerAutoScroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD7BDE45362E146237D8E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FFBannerAutoScrollUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041BE31020E0C30C00B1EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041BE31C20E0C30C00B1EB54 /* ViewController.m in Sources */,
+				041BE32720E0C30C00B1EB54 /* main.m in Sources */,
+				0434E1B8212BAF8500EFC9EB /* AutoScrollBanner02.m in Sources */,
+				0458D38520E1CD41003E9B9F /* YSLoopBanner.m in Sources */,
+				041BE31920E0C30C00B1EB54 /* AppDelegate.m in Sources */,
+				041BE35D20E0EE5700B1EB54 /* BannerScrollAnimation.m in Sources */,
+				041BE35720E0ED9B00B1EB54 /* BannerAutoScroll.m in Sources */,
+				0434E1B7212BAF8500EFC9EB /* AutoScrollBanner01.m in Sources */,
+				041BE35920E0ED9B00B1EB54 /* BannerAutoImageViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE32820E0C30C00B1EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041BE33320E0C30C00B1EB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041BE32E20E0C30C00B1EB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041BE31320E0C30C00B1EB54 /* FFBannerAutoScroll */;
+			targetProxy = 041BE32D20E0C30C00B1EB54 /* PBXContainerItemProxy */;
+		};
+		041BE33920E0C30C00B1EB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041BE31320E0C30C00B1EB54 /* FFBannerAutoScroll */;
+			targetProxy = 041BE33820E0C30C00B1EB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041BE31D20E0C30C00B1EB54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BE31E20E0C30C00B1EB54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041BE32220E0C30C00B1EB54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BE32320E0C30C00B1EB54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041BE33E20E0C30C00B1EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041BE33F20E0C30C00B1EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041BE34120E0C30C00B1EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6B9EC5B34AD91627F20B0F /* Pods-FFBannerAutoScroll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041BE34220E0C30C00B1EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B665081C68755DCA6077C0 /* Pods-FFBannerAutoScroll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		041BE34420E0C30C00B1EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD24C888D420B6ECCE18FED /* Pods-FFBannerAutoScrollTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFBannerAutoScroll.app/FFBannerAutoScroll";
+			};
+			name = Debug;
+		};
+		041BE34520E0C30C00B1EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81CBEA73C02A431FB4DE58E /* Pods-FFBannerAutoScrollTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFBannerAutoScroll.app/FFBannerAutoScroll";
+			};
+			name = Release;
+		};
+		041BE34720E0C30C00B1EB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62AB34A952C879C65862F33 /* Pods-FFBannerAutoScrollUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFBannerAutoScroll;
+			};
+			name = Debug;
+		};
+		041BE34820E0C30C00B1EB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E5523E200D3EFD263A3E84 /* Pods-FFBannerAutoScrollUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFBannerAutoScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.FFBannerAutoScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFBannerAutoScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041BE30F20E0C30C00B1EB54 /* Build configuration list for PBXProject "FFBannerAutoScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BE33E20E0C30C00B1EB54 /* Debug */,
+				041BE33F20E0C30C00B1EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BE34020E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BE34120E0C30C00B1EB54 /* Debug */,
+				041BE34220E0C30C00B1EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BE34320E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BE34420E0C30C00B1EB54 /* Debug */,
+				041BE34520E0C30C00B1EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BE34620E0C30C00B1EB54 /* Build configuration list for PBXNativeTarget "FFBannerAutoScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BE34720E0C30C00B1EB54 /* Debug */,
+				041BE34820E0C30C00B1EB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041BE30C20E0C30C00B1EB54 /* Project object */;
+}
